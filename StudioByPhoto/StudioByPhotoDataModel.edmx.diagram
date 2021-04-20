@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="e798071dc4ad45f783517a79cd0b7a6a" Name="Diagram1">
+        <EntityTypeShape EntityType="StudioByPhotoModel.CompletedWork" Width="1.5" PointX="7.5" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="StudioByPhotoModel.Customer" Width="1.5" PointX="3" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="StudioByPhotoModel.Discount" Width="1.5" PointX="3" PointY="10.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="StudioByPhotoModel.FileFormat" Width="1.5" PointX="5.25" PointY="15.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="StudioByPhotoModel.Order" Width="1.5" PointX="5.25" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="StudioByPhotoModel.Photo" Width="1.5" PointX="5.25" PointY="10" IsExpanded="true" />
+        <EntityTypeShape EntityType="StudioByPhotoModel.Position" Width="1.5" PointX="0.75" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="StudioByPhotoModel.Service" Width="1.5" PointX="5.25" PointY="12.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="StudioByPhotoModel.ServiceOrder" Width="1.5" PointX="7.5" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="StudioByPhotoModel.Studio" Width="1.5" PointX="5.25" PointY="19.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="StudioByPhotoModel.StudioOrder" Width="1.5" PointX="7.5" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="StudioByPhotoModel.sysdiagrams" Width="1.5" PointX="9.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="StudioByPhotoModel.Worker" Width="1.5" PointX="3" PointY="4.5" IsExpanded="true" />
+        <AssociationConnector Association="StudioByPhotoModel.FK_CompletedWork_FileFormat" ManuallyRouted="false" />
+        <AssociationConnector Association="StudioByPhotoModel.FK_CompletedWork_Order" ManuallyRouted="false" />
+        <AssociationConnector Association="StudioByPhotoModel.FK_Order_Customer" ManuallyRouted="false" />
+        <AssociationConnector Association="StudioByPhotoModel.FK_Order_Discount" ManuallyRouted="false" />
+        <AssociationConnector Association="StudioByPhotoModel.FK_Order_Worker" ManuallyRouted="false" />
+        <AssociationConnector Association="StudioByPhotoModel.FK_ServiceOrder_Order" ManuallyRouted="false" />
+        <AssociationConnector Association="StudioByPhotoModel.FK_StudioOrder_Order" ManuallyRouted="false" />
+        <AssociationConnector Association="StudioByPhotoModel.FK_Photo_Worker" ManuallyRouted="false" />
+        <AssociationConnector Association="StudioByPhotoModel.FK_Worker_Position" ManuallyRouted="false" />
+        <AssociationConnector Association="StudioByPhotoModel.fk__Serv__Ch" ManuallyRouted="false" />
+        <AssociationConnector Association="StudioByPhotoModel.FK_StudioOrder_Studio" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
